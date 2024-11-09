@@ -3,11 +3,19 @@
     src: url('./fonts/Yellowtail-Regular.ttf');
 }
 
+body {
+    background-color: greenyellow;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Yellowtail';
+}
+
+header {
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
 h1 {
@@ -20,14 +28,23 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 25px;
+    margin: 25px;
+}
+
+.left-section {
+    width: 500px;
 }
 
 .left-section p {
-    font-size: 25px;
+    font-size: 50px;
     margin-top: 100px;
+    padding: 10px;
+    text-align: center;
 }
 
 .right-section img {
     width: 500px;
-    border-radius: 50px;
+    border-radius: 150px;
 }
