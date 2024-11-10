@@ -3,16 +3,67 @@
     src: url('./fonts/Yellowtail-Regular.ttf');
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Yellowtail';
+}
+
+body {
+    background-color: blueviolet;
+}
+
 header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    margin-left: 5px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
 }
 
 ul li {
     list-style: none;
+    cursor: pointer;
+    margin-left: 10px;
 }
 
 a {
     text-decoration: none;
-    color: black
+    color: black;
+}
+
+.title h1 {
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.social-section {
+    margin-right: 5px;
+}
+
+.social-links {
+    width: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.front-image {
+    width: 400px;
+    border-radius: 50px;
 }
